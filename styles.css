@@ -1,0 +1,41 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+.Canon-header {
+  border: 1px solid blue;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+nav#navbar {
+  grid-area: nav-grid;
+  position: fixed;
+}
+
+nav#navbar a {
+  display: flex;
+  padding: 5px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  border: 1px solid white; 
+  border-radius: 5px;
+  background-color: linen;
+  padding: 5px;
+  text-align: center;
+}
+
+main#main-doc {
+  grid-area: main-grid;
+}
+
+.main-section {
+  margin-left: 300px;
+}
